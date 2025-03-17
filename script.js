@@ -24,7 +24,7 @@ function fetchAirQuality(e) {
     const state = stateInput.value;
     const country = countryInput.value;
 
-    let url = `http://api.airvisual.com/v2/city?city=${city}&state=${state}&country=${country}&key=${API_KEY}`;
+    let url = `https://api.airvisual.com/v2/city?city=${city}&state=${state}&country=${country}&key=${API_KEY}`;
 
     const isTemperatureBoxChecked = temperatureCheckbox.checked;
     const isHumidityBoxChecked = humidityCheckbox.checked;
