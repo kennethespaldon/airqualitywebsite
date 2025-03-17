@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1>Air Quality</h1>
+    <main>
+      <div class="results-container">
+        <div class="results-img"></div>
+        <output>
+          <h2>Results</h2>
+          <div class="line"></div>
+          <div class="results">
+            <p>Enter city, state,</p>
+            <p>and country for results</p>
+          </div>
+        </output>
+      </div>
+      <div class="line"></div>
+      <form>
+        <fieldset class="optional-info-container">
+          <legend class="optional-info-title">Choose for more info</legend>
+          <ul class="optional-info-list">
+            <li>
+              <input type="checkbox" id="temperature-cb" name="temperature-cb">
+              <label for="temperature-cb">Temperature</label>
+            </li>
+            <li>
+              <input type="checkbox" id="humidity-cb" name="humidity-cb">
+              <label for="humidity-cb">Humidity</label>
+            </li>
+            <li>
+              <input type="checkbox" id="wind-speed-cb" name="wind-speed-cb">
+              <label for="wind-speed-cb">Wind speed</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="text-inputs-container">
+          <p>
+            <label for="city" class="label-title">City:</label>
+            <input type="text" id="city" name="city" placeholder="Los Angeles" required>
+          </p>
+          <p>
+            <label for="state" class="label-title">State:</label>
+            <input type="text" id="state" name="state" placeholder="California" required>
+          </p>
+          <p>
+            <label for="country" class="label-title">Country:</label>
+            <input type="text" id="country" name="state" placeholder="USA" required>
+          </p>
+        </fieldset>
+        <button class="get-aq-btn">Get Air Quality</button>
+      </form>
+    </main>
+  </body>
+</html>
