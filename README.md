@@ -2,7 +2,7 @@
 A website that takes user input to find the air quality of a city using the **Air Quality API** by IQAir and the promise based HTTP request **Fetch API**.
 
 ## Live preview
-[Click here to check the air quality of a city! [Air quality preview](./images/airqualitypreview.png)](https://kennethespaldon.github.io/airqualitywebsite/)
+[Click here to check the air quality of a city! ![Air quality preview](./images/airqualitypreview.png)](https://kennethespaldon.github.io/airqualitywebsite/)
 
 ### Test data
 Here are some data (city, state, country) for you to enter. Each set of data should result in a different image to be displayed based on the air quality.
